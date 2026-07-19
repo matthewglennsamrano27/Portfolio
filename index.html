@@ -140,7 +140,68 @@ text-decoration:none;
 border-radius:30px;
 font-weight:bold;
 }
+.certificate-grid{
 
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:25px;
+
+}
+
+.certificate-card{
+
+background:white;
+
+border-radius:12px;
+
+padding:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+text-align:center;
+
+}
+
+.certificate-card img{
+
+width:100%;
+
+height:230px;
+
+object-fit:cover;
+
+border-radius:8px;
+
+margin-bottom:15px;
+
+}
+
+.certificate-card a{
+
+display:inline-block;
+
+margin-top:15px;
+
+text-decoration:none;
+
+background:#0f4c81;
+
+color:white;
+
+padding:10px 20px;
+
+border-radius:30px;
+
+}
+
+.certificate-card a:hover{
+
+background:#1d75bd;
+
+}
+  
 @media(max-width:768px){
 
 header h1{
